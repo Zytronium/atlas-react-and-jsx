@@ -8,10 +8,11 @@
 
 ### Important Files/Folders
 
-- `src`: All javascript/jsx code goes in this directory
+- `src`: All javascript/jsx code goes in this directory.
 - `src/assets`: Any static assets such as images that are loaded through the javascript files goes here.
 - `index.html`: This is the html file that appears when the dev server starts up.
 - `src/app.jsx`: This is the main app component for the entire app.
+- `src/components`: All React components go in this directory.
 
 ### Important Commands
 

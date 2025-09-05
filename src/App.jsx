@@ -1,9 +1,9 @@
-import { Greeting } from "./components/Greeting.jsx";
+import { Header } from "./components/Header.jsx";
 
 function App() {
   return (
-    <div id="container">
-      <Greeting />
+    <div className="app">
+      <Header />
     </div>
   );
 }

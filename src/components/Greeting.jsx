@@ -4,25 +4,25 @@ export function Greeting() {
     morning: (
       <>
         <img src="/src/assets/day.svg" alt="Good Day"/>
-        <p>Good Morning!</p>
+        Good Morning!
       </>
     ),
     afternoon: (
       <>
         <img src="/src/assets/day.svg" alt="Good Day"/>
-        <p>Good Afternoon!</p>
+        Good Afternoon!
       </>
     ),
     evening: (
       <>
         <img src="/src/assets/evening.svg" alt="Good Evening"/>
-        <p>Good Evening!</p>
+        Good Evening!
       </>
     ),
     night: (
       <>
         <img src="/src/assets/night.svg" alt="Good Night"/>
-        <p>Good Night!</p>
+        Good Night!
       </>
     )
   }
