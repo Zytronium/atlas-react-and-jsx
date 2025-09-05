@@ -1,5 +1,11 @@
+import { Greeting } from "./components/Greeting.jsx";
+
 function App() {
-  return <div className="app">Hello Atlas</div>;
+  return (
+    <div id="container">
+      <Greeting />
+    </div>
+  );
 }
 
 export default App;
