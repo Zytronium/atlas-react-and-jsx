@@ -34,8 +34,8 @@ function showToast(message, duration=2000) {
   toast.textContent = message;
   toast.style.cssText = `
         position:fixed;bottom:1rem;right:1rem;
-        background:#222;color:#fff;padding:.75rem 1rem;
-        border-radius:4px;z-index:9999;
+        background:var(--teal);color:var(--off-white-light);
+        padding:.75rem 1rem;border-radius:1rem;z-index:9999;
         transition: 0.75s;
       `;
   document.body.appendChild(toast);
