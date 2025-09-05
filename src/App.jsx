@@ -32,6 +32,10 @@ function App() {
           <li>Supports a large and active ecosystem of third-party libraries to simplify front-end development</li>
         </ul>
       </Section>
+
+      <Section title="Helpful resources">
+
+      </Section>
     </div>
   );
 }
