@@ -2,7 +2,7 @@ import { Header } from "./components/Header.jsx";
 import { Section } from "./components/Section.jsx";
 import { HelpfulResource } from "./components/HelpfulResource.jsx";
 import { AboutMe } from "./components/AboutMe.jsx";
-import { Footer } from "./assets/Footer.jsx";
+import { Footer } from "./components/Footer.jsx";
 
 function App() {
   return (

@@ -1,3 +1,5 @@
+import copyIcon from "../assets/copy.svg";
+
 export function CopyLink(props) {
   function copyLink() {
     navigator.clipboard.writeText(props.link)
@@ -21,7 +23,7 @@ export function CopyLink(props) {
   }
 
   return (
-    <img className="copy" src="/src/assets/copy.svg" onClick={copyLink} alt="copy"/>
+    <img className="copy" src={copyIcon} onClick={copyLink} alt="copy"/>
   );
 }
 

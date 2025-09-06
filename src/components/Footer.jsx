@@ -5,7 +5,7 @@ export function Footer() {
     <footer>
       <ul>
         {linksData.map((item, i) => (
-          <li key={i}><a href={item.link}>{item.label}</a></li>
+          <li key={i}><a href={item.link} target="_blank">{item.label}</a></li>
         ))}
       </ul>
       © {new Date().getFullYear()} Atlas School

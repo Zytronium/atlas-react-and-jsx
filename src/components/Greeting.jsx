@@ -1,27 +1,31 @@
+import dayIcon from "../assets/day.svg";
+import eveningIcon from "../assets/evening.svg";
+import nightIcon from "../assets/night.svg";
+
 export function Greeting() {
   const hour = new Date().getHours();
   const greetings = {
     morning: (
       <>
-        <img src="/src/assets/day.svg" alt="Good Day"/>
+        <img src={dayIcon} alt="Good Day"/>
         Good Morning!
       </>
     ),
     afternoon: (
       <>
-        <img src="/src/assets/day.svg" alt="Good Day"/>
+        <img src={dayIcon} alt="Good Day"/>
         Good Afternoon!
       </>
     ),
     evening: (
       <>
-        <img src="/src/assets/evening.svg" alt="Good Evening"/>
+        <img src={eveningIcon} alt="Good Evening"/>
         Good Evening!
       </>
     ),
     night: (
       <>
-        <img src="/src/assets/night.svg" alt="Good Night"/>
+        <img src={nightIcon} alt="Good Night"/>
         Good Night!
       </>
     )
