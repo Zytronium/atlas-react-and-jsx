@@ -20,7 +20,7 @@ function App() {
         UI components. It&apos;s often paired with JSX, a JavaScript syntax
         extension that makes embedding HTML and React components via JS easier
         with cleaner and simpler syntax. While React is not considered a
-        framework it is often used in frameworks like Next.js.
+        framework, it is often used in frameworks like Next.js.
       </Section>
 
       <Section title="Benefits of react">
@@ -35,9 +35,9 @@ function App() {
       </Section>
 
       <Section title="Helpful resources">
+        <HelpfulResource label="React: Learn React" link="https://react.dev/learn"/>
         <HelpfulResource label="YouTube: React in 100 Seconds" link="https://www.youtube.com/watch?v=Tn6-PIqc4UM"/>
         <HelpfulResource label="in{struct} blog: Hello React" link="https://atlas-jswank.github.io/blog/hello-react/"/>
-        <HelpfulResource label="in{struct} blog: What is JSX?" link="https://atlas-jswank.github.io/blog/jsx/"/>
       </Section>
     </div>
   );
