@@ -1,7 +1,9 @@
+import ProfilePicture from "../assets/me.webp";
+
 export function AboutMe() {
   return (
     <div className="about-me">
-      <img src={"/src/assets/me.webp"} alt={"Daniel Stelljes"} />
+      <img src={ProfilePicture} alt={"Daniel Stelljes"} />
       <p>
         Hi, I&apos;m Daniel. I&apos;m currently learning to code at Atlas
         School in Tulsa, Oklahoma. I&apos;m in my 5th and final trimester
