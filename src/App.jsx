@@ -1,6 +1,7 @@
 import { Header } from "./components/Header.jsx";
 import { Section } from "./components/Section.jsx";
 import { HelpfulResource } from "./components/HelpfulResource.jsx";
+import { AboutMe } from "./components/AboutMe.jsx";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
         <HelpfulResource label="YouTube: React in 100 Seconds" link="https://www.youtube.com/watch?v=Tn6-PIqc4UM"/>
         <HelpfulResource label="in{struct} blog: Hello React" link="https://atlas-jswank.github.io/blog/hello-react/"/>
       </Section>
+
+      <AboutMe />
     </div>
   );
 }
